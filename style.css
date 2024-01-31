@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+}
+header nav ul li a{
+    color: white !important;
+}
+header div h1 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #FEA116;
+}
+header div img{
+    width: 55px;
+    height: 50px;
+}
+header nav ul li a:hover{
+    color: #FEA116 !important;
+}
+header nav ul li a.btn:hover{
+    color: #fff !important;
+}
+
+@media (max-width:768px) and (min-width:480px) {
+    .responsive{
+        display: table-column;
+        font-size: 12px;
+    }
+    .responsiveleft{
+        padding: 0px 6px;
+    }
+    .responsiveleft{
+        padding: 0px !important;
+    }
+}
+@media (max-width:480px) {
+    .responsive{
+        display: table-column;
+        font-size: 10px;
+    }
+    .responsiveleft{
+        padding: 0px 6px;
+    }
+    header div h1{
+        font-size: 30px;
+    }
+    .responsiveleft{
+        padding: 0px !important;
+    }
+}
+
+.bigdiv{
+    height: auto;
+    width: 100%;
+    background-image: url(./bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btnchwa{
+    background-color: #FEA116;
+    color: white;
+    width: 40%;
+    margin: 10px 0px !important;
+}
+
+.imgchwa{
+    animation: imgrotate 50s linear infinite;
+}
+@keyframes imgrotate { 
+    0% { 
+        transform: rotate(0deg); 
+    } 
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+.sc1title{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: 1s;
+}
+.service-item:hover{
+    background-color: #FEA116!important;
+    transition: 1s;
+}
+.service-item div i{
+    color: #FEA116 !important;
+}
+.service-item:hover div i,.service-item:hover div p,.service-item:hover div h5{
+    color: #fff !important;
+    transition: 1s;
+}
+.coloryellow{
+    color: #FEA116 !important;
+}
+.bgyellow{
+    background-color: #FEA116;
+}
+.ff-secondary {
+    font-family: 'Pacifico cursive';
+}
+.borderleft{
+    border-left: 5px solid #FEA116;
+}
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    height: calc(100% - 38px);
+    transition: 0.5s;
+}
+.team-item img {
+    transition: 0.5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-item:hover {
+    height: 100%;
+}
+
+.team-item .btn {
+    border-radius: 38px 38px 0 0;
+}
+
